@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+
+# Audit history can get large
+_audit/history/**
+
+# Obsidian local state
+.obsidian/workspace*.json
+.obsidian/workspaces.json
+.obsidian/cache/
+.obsidian/workspace/
+
+# Attachments and binary files
+90 附件/
+06 系统/02 附件/
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.webp
+**/*.gif
+**/*.pdf
+**/*.mp3
+**/*.wav
+**/*.m4a
+**/*.mp4
+**/*.mov
+**/*.zip
+
+# Temporary
+.trash/
+temp/
+exports/
+
+# Local config
+config.json
